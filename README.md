@@ -17,20 +17,21 @@ The contents of this course is heavily opinionated and you may disagree (or come
 	*	What is the cloud?
 	*	What is the client and what is the server?
 	*	What is HTTP?
-	* Project - Network flow chart
+	*	Project - Network flow chart
 *	[Week Two - Programming Principles](week-2/README.md)
-	*	Common types and concepts
+	*	Common types, patterns and concepts
 	*	What kinds of programming is there?
 	*	Object Orientated Programming
 	*	Functional Programming
 	*	Asynchronous & Synchronous actions
 	*	REST API Design
-	* Project - Entity Relationship Diagram
+	*	Project - Model a project (Objects, Object Relationships)
 *	[Week Three - Working with the terminal](week-3/README.md)
 	*	The Shell
 	*	GIT
 	*	Working with and Installing Packages
 	*	SSH
+	*	Project - Quote of the day on startup
 *	[Week Four - Programming](week-4/README.md)
 	*	Working with the browser
 	*	Working with Events
@@ -45,7 +46,6 @@ The contents of this course is heavily opinionated and you may disagree (or come
 *	[Week Six - Server side](week-6/README.md)
 	*	Programming with Javascript - Server side
 	*	What is CJS (Common JS)?
-	*	Working with require
 	*	Project - Building a JSON API
 *	[Week Seven - Testing](week-7/README.md)
 	*	What is testing?
@@ -57,32 +57,42 @@ The contents of this course is heavily opinionated and you may disagree (or come
 	*	Networking
 	*	The environment
 	*	Caching - Memory, Keystores etc
-*	[Week Nine - Security](week-9/README.md)
+	*	Project - ???
+*	[Week Nine - VMs / Docker](week-9/README.md)
+	*	What is a Virtual Machine?
+	*	What is a container?
+	*	What is docker and how is it useful?
+	*	Getting started
+	*	Docker compose
+	*	Project - Compose your project
+*	[Week Ten - Databases](week-10/README.md)
+	*	Relational
+	*	Document Store
+	*	Graph
+	*	Project - ?
+*	[Week Eleven - Security](week-11/README.md)
 	*	Common terms
 	*	Securing your server
 	*	Managing passwords
 	*	Managing user sessions.
-*	[Week Ten - Docker](week-10/README.md)
-	*	What is docker and how is it useful?
-	*	Getting started
-	*	Docker compose
-*	[Week Eleven - Databases](week-11/README.md)
-	*	Relational
-	*	Document Store
-	*	Graph
+	*	Project - ?
 *	[Week Twelve - Client/Server relationship](week-12/README.md)
 	*	Integrating your API
 	*	Saving the calculations
+	*	Project - Integrate your API with your Calculator
 *	[Week Thirteen - ](week-13/README.md)
 	*	?
 *	[Week Fourteen - Project lifecycle](week-14/README.md)
 	*	Development to Production
 	*	Deploying your code
 	*	Maintenance
+	*	Project - ?
 *	[Week Fifteen - AWS](week-15/README.md)
 	*	What is AWS?
 	*	How do I use it?
+	*	Do I need to use it?
 	*	Common usage
+	*	Project - ?
 *	[Week Sixteen - Real world project](week-16/README.md)
 	*	Requirements
 	*	Deliverables
@@ -90,7 +100,10 @@ The contents of this course is heavily opinionated and you may disagree (or come
 ## Helpful resources
 
 *	[Stackoverflow](https://stackoverflow.com/) - A huge community of developers helping other developers with issues.
-* [Google](https://google.co.uk) - What you can't find via google isn't worth knowing.
-* [MDN Web Docs](https://developer.mozilla.org/en-US/) - Developer documentation for the web.
-* [Codepen](https://codepen.io/) - Hosts an incredible amount of work showcasing what is actually possible on the web.
-* [Github](https://github.com/) - Hosts a huge amount of open-source code.
+*	[Google](https://google.co.uk) - What you can't find via google isn't worth knowing.
+*	[MDN Web Docs](https://developer.mozilla.org/en-US/) - Developer documentation for the web.
+*	[Codepen](https://codepen.io/) - Hosts an incredible amount of work showcasing what is actually possible on the web.
+*	[Github](https://github.com/) - Holds a huge amount of open-source code and is central to most modern development (in my opinion).
+*	[Create a Mac VM](https://www.pcsteps.com/2157-mac-os-x-virtual-machine-vmware-player/) - Not necessary but may help avoid "Windows" related issues.
+
+
