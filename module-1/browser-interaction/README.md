@@ -1,3 +1,1 @@
-# How the internet works
-
-
+# How does your browser show things to you?
