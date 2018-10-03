@@ -6,11 +6,13 @@ The aim of this project is to allow the gradual building of knowledge via a mixt
 
 There will be parts where you get stuck, don't understand a term or a concept. Half the battle of software engineering is conquering the fear of not knowing and simply having a go until you do. Nobody has perfected programming, its constantly evolving and as such what you read one month may be obsolete by the next!
 
-The contents of this course is heavily opinionated and you may disagree (or come to disagree) with aspects of it. I welcome that kind of input because as I mentioned previously, nobody has perfected software engineering and nobody should ever think that what is the "best" way to do something now will always be so.
+The content of this course is heavily opinionated and you may disagree (or come to disagree) with aspects of it. I welcome that kind of input because as I mentioned previously, nobody has perfected software engineering and nobody should ever think that what is the "best" way to do something now will always be so. Pull requests and issues are very much appreciated!
+
+Each module can be standalone although I have attempted to make each module build on previously completed modules.
 
 ## Table of Contents
 
-*	[Week One - World Wide Web](week-1/README.md)
+*	[Module One - World Wide Web](module-1/README.md)
 	*	How the internet works
 	*	How does your browser show things to you?
 	*	What does the browser do?
@@ -18,7 +20,7 @@ The contents of this course is heavily opinionated and you may disagree (or come
 	*	What is the client and what is the server?
 	*	What is HTTP?
 	*	Project - Network flow chart
-*	[Week Two - Programming Principles](week-2/README.md)
+*	[Module Two - Programming Principles](module-2/README.md)
 	*	Common types, patterns and concepts
 	*	What kinds of programming is there?
 	*	Object Orientated Programming
@@ -26,74 +28,74 @@ The contents of this course is heavily opinionated and you may disagree (or come
 	*	Asynchronous & Synchronous actions
 	*	REST API Design
 	*	Project - Model a project (Objects, Object Relationships)
-*	[Week Three - Working with the terminal](week-3/README.md)
+*	[Module Three - Working with the terminal](module-3/README.md)
 	*	The Shell
 	*	GIT
 	*	Working with and Installing Packages
 	*	SSH
 	*	Project - Quote of the day on startup
-*	[Week Four - Programming](week-4/README.md)
+*	[Module Four - Programming](module-4/README.md)
 	*	Working with the browser
 	*	Working with Events
 	*	Programming with HTML / CSS
 	*	Programming with Javascript - Client side
 	*	Project - Visual Calculator
-*	[Week Five - Javascript](week-5/README.md)
+*	[Module Five - Javascript](module-5/README.md)
 	*	What is Bundling?
 	*	Using NPM
 	*	Webpack
 	*	Project - Bundled Visual Calculator
-*	[Week Six - Server side](week-6/README.md)
+*	[Module Six - Server side](module-6/README.md)
 	*	Programming with Javascript - Server side
 	*	What is CJS (Common JS)?
 	*	Project - Building a JSON API
-*	[Week Seven - Testing](week-7/README.md)
+*	[Module Seven - Testing](module-7/README.md)
 	*	What is testing?
 	*	What do I test?
 	*	How do I test?
 	*	Project - Testing the calculator
-*	[Week Eight - Working with the server](week-8/README.md)
+*	[Module Eight - Working with the server](module-8/README.md)
 	*	Your first server
 	*	Networking
 	*	The environment
 	*	Caching - Memory, Keystores etc
 	*	Project - ???
-*	[Week Nine - VMs / Docker](week-9/README.md)
+*	[Module Nine - VMs / Docker](module-9/README.md)
 	*	What is a Virtual Machine?
 	*	What is a container?
 	*	What is docker and how is it useful?
 	*	Getting started
 	*	Docker compose
 	*	Project - Compose your project
-*	[Week Ten - Databases](week-10/README.md)
+*	[Module Ten - Databases](module-10/README.md)
 	*	Relational
 	*	Document Store
 	*	Graph
 	*	Project - ?
-*	[Week Eleven - Security](week-11/README.md)
+*	[Module Eleven - Security](module-11/README.md)
 	*	Common terms
 	*	Securing your server
 	*	Managing passwords
 	*	Managing user sessions.
 	*	Project - ?
-*	[Week Twelve - Client/Server relationship](week-12/README.md)
+*	[Module Twelve - Client/Server relationship](module-12/README.md)
 	*	Integrating your API
 	*	Saving the calculations
 	*	Project - Integrate your API with your Calculator
-*	[Week Thirteen - ](week-13/README.md)
+*	[Module Thirteen - ](module-13/README.md)
 	*	?
-*	[Week Fourteen - Project lifecycle](week-14/README.md)
+*	[Module Fourteen - Project lifecycle](module-14/README.md)
 	*	Development to Production
 	*	Deploying your code
 	*	Maintenance
 	*	Project - ?
-*	[Week Fifteen - AWS](week-15/README.md)
+*	[Module Fifteen - AWS](module-15/README.md)
 	*	What is AWS?
 	*	How do I use it?
 	*	Do I need to use it?
 	*	Common usage
 	*	Project - ?
-*	[Week Sixteen - Real world project](week-16/README.md)
+*	[Module Sixteen - Real world project](module-16/README.md)
 	*	Requirements
 	*	Deliverables
 
