@@ -15,10 +15,8 @@ Each module can be standalone although I have attempted to make each module buil
 *	[Module One - World Wide Web](module-1/README.md)
 	*	How the internet works
 	*	How does your browser show things to you?
-	*	What does the browser do?
 	*	What is the cloud?
-	*	What is the client and what is the server?
-	*	What is HTTP?
+	*	What is a client and what is a server?
 	*	Project - Network flow chart
 *	[Module Two - Programming Principles](module-2/README.md)
 	*	Common types, patterns and concepts
@@ -26,7 +24,6 @@ Each module can be standalone although I have attempted to make each module buil
 	*	Object Orientated Programming
 	*	Functional Programming
 	*	Asynchronous & Synchronous actions
-	*	REST API Design
 	*	Project - Model a project (Objects, Object Relationships)
 *	[Module Three - Working with the terminal](module-3/README.md)
 	*	The Shell
@@ -46,6 +43,7 @@ Each module can be standalone although I have attempted to make each module buil
 	*	Webpack
 	*	Project - Bundled Visual Calculator
 *	[Module Six - Server side](module-6/README.md)
+	*	REST API Design
 	*	Programming with Javascript - Server side
 	*	What is CJS (Common JS)?
 	*	Project - Building a JSON API

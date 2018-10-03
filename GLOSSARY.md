@@ -6,9 +6,21 @@ Application programming interface. Depending on the context of how its used, it 
 
 People often refer to "the API" - in this case it refers to another service that an application can interact with via that service's exposed functionality. For instance, Youtube may have a service that allows other developers to search for results on youtube without exposing anything about how Youtube's systems work internally.
 
+### CD
+
+Continuous delivery. The practice of releasing your code to the world (production) in short cycles, often soon after pushing to source control and running your tests. It is automated and doesn't need any human interaction (after the initial trigger).
+
+### CI
+
+Continuous integration. The practice of integrating code into a shared repository as often as possible (often several times a day). Each code check-in will automatically trigger the relevant checks and tests allowing issues to be caught earlier.
+
 ### CSS
 
 Cascading Style Sheets. Describes how the HTML in a webpage should be presented.
+
+### DOM
+
+Document Object Model. Represents a document (such as a web page or XML file) as nodes and objects. Often used when referring to the "DOM Tree". A simple webpage would start at the document level, then the "tree" would branch into "head" and "body" then each of those would branch into the HTML elements inside of each and they would then split based on the elements inside them until the element in question doesn't have any more elements inside it. This allows the browser to "walk the tree" and understand how a document is structured.
 
 ### DNS
 
@@ -21,6 +33,10 @@ Hypertext Markup Language. The most commonly used programming language for creat
 ### HTTP
 
 Hypertext Transfer Protocol. Defines a set of rules that allows clients and servers to communicate. Your web browser will use HTTP to request the contents of a website.
+
+### HTTPS
+
+Hypertext Transfer Protocol Secure. The encrypted version of HTTP.
 
 ### IP
 
