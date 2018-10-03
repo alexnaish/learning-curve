@@ -13,6 +13,7 @@ Each module can be standalone although I have attempted to make each module buil
 ## Table of Contents
 
 *	[Module One - World Wide Web](module-1/README.md)
+	*	History of the Interenet
 	*	How the internet works
 	*	How does your browser show things to you?
 	*	What does the browser do?
