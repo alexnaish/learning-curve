@@ -13,7 +13,7 @@ Each module can be standalone although I have attempted to make each module buil
 ## Table of Contents
 
 *	[Module One - World Wide Web](module-1/README.md)
-	*	History of the Interenet
+	*	History of the Internet
 	*	How the internet works
 	*	How does your browser show things to you?
 	*	What is the cloud?
@@ -32,7 +32,7 @@ Each module can be standalone although I have attempted to make each module buil
 	*	Working with and Installing Packages
 	*	SSH
 	*	Project - Quote of the day on startup
-*	[Module Four - Programming](module-4/README.md)
+*	[Module Four - Clientside Programming](module-4/README.md)
 	*	Working with the browser
 	*	Working with Events
 	*	Programming with HTML / CSS
@@ -43,34 +43,34 @@ Each module can be standalone although I have attempted to make each module buil
 	*	Using NPM
 	*	Webpack
 	*	Project - Bundled Visual Calculator
-*	[Module Six - Server side](module-6/README.md)
-	*	REST API Design
-	*	Programming with Javascript - Server side
-	*	What is CJS (Common JS)?
-	*	Project - Building a JSON API
-*	[Module Seven - Testing](module-7/README.md)
-	*	What is testing?
-	*	What do I test?
-	*	How do I test?
-	*	Project - Testing the calculator
-*	[Module Eight - Working with the server](module-8/README.md)
+*	[Module Six - Working with the server](module-6/README.md)
 	*	Your first server
 	*	Networking
 	*	The environment
 	*	Caching - Memory, Keystores etc
 	*	Project - ???
-*	[Module Nine - VMs / Docker](module-9/README.md)
+*	[Module Seven - Serverside Programming](module-7/README.md)
+	*	REST API Design
+	*	Programming with Javascript - Server side
+	*	What is CJS (Common JS)?
+	*	Project - Building a JSON API
+*	[Module Eight - Testing](module-8/README.md)
+	*	What is testing?
+	*	What do I test?
+	*	How do I test?
+	*	Project - Testing the calculator
+*	[Module Nine - Databases](module-9/README.md)
+	*	Relational
+	*	Document Store
+	*	Graph
+	*	Project - ?
+*	[Module Ten - VMs / Docker](module-10/README.md)
 	*	What is a Virtual Machine?
 	*	What is a container?
 	*	What is docker and how is it useful?
 	*	Getting started
 	*	Docker compose
 	*	Project - Compose your project
-*	[Module Ten - Databases](module-10/README.md)
-	*	Relational
-	*	Document Store
-	*	Graph
-	*	Project - ?
 *	[Module Eleven - Security](module-11/README.md)
 	*	Common terms
 	*	Securing your server
