@@ -38,6 +38,10 @@ Hypertext Transfer Protocol. Defines a set of rules that allows clients and serv
 
 Hypertext Transfer Protocol Secure. The encrypted version of HTTP.
 
+### IoT
+
+The "Internet of Things". A general buzzword for internet connected devices such as thermostats etc.
+
 ### IP
 
 Internet Protocol. Defines how data should be transmitted across a network.
