@@ -55,3 +55,7 @@ Representational State Transfer. Don't worry about the full definition, it's rea
 Secure shell. A network protocol allowing networking services over a (often unsecure) network. The most common example of this is to remotely login to a server. Since you don't have physical access to sit down next to most servers, you need some way of accessing it if you need to perform operations on it. This is where you'll use SSH to connect.
 
 Example command: `ssh alex@example.server.com`. This would allow the user `alex` to attempt to connect to the server at `example.server.com`.
+
+### URL
+
+Uniform Resource Locator. Formed of a protocol (`HTTP` for example), the domain name and a file path. For example: `http://my.example.com/home.html` contains the protocol prefix of `http://`, the `subdomain` of `my`, the parent domain (or Top-Level-Domain - TLD) of `example.com` and then finally the path of `home.html`.
