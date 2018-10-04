@@ -14,7 +14,7 @@ Each module can be standalone although I have attempted to make each module buil
 
 *	[Module One - World Wide Web](module-1/README.md)
 	*	History of the Internet
-	*	How the internet works
+	*	How does the internet work?
 	*	How does your browser show things to you?
 	*	What is the cloud?
 	*	What is a client and what is a server?
