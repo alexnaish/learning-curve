@@ -23,3 +23,12 @@ There are two versions of IP addresses, IPv4 and IPv6 (IP version 4 and IP versi
 A domain name in its simplest form is just a website name. The domain name is used as part of a [URL](../../GLOSSARY.md#url) to help locate a website. When you type in `www.google.com` into your browser, you are typing a domain name. The browser automatically adds a protocol to that to form the URL and then your request is sent off. The domain name is looked up against a domain name server ([DNS](../../GLOSSARY.md#dns)) where it finds the IP address of your website.
 
 I don't think its mandatory reading but if you're interested in how setting up a domain name works then I would give the [Wikipedia - CNAMEs](https://en.wikipedia.org/wiki/CNAME_record) page a read. The first paragraph is enough to get the basic gist of it but feel free to read more if you're interested!
+
+### Ports
+
+If you visualise your machine as a house, ports would be the windows and doors. When you want to connect to a machine via the network, the machine in question has to have some kind of access point. Going back to the house analogy, if you want to allow access to your house - you open the front door. Each IP address can have ports ranging from 0 to 65535 BUT 0 to 1023 are usually reserved for "privileged" processes (you'll need to be an admin to listen on them). The general rule of thumb is that as few ports are open as necessary - the exact same for your house. You wouldn't leave your house with the front door, windows and back door wide open.
+
+Now your application wants to accept connections (like the house owner would want to accept guests). You know what kind of access your application requires so you open the relevant ports for it. Your application in this analogy would be the doorman at the door, he would watch (technical term `listen`) for requests on a specific port and handle them as required. However if you've only opened the "front door" port, if your guest tries to access via the windows then they'll be denied access as we haven't opened them (even if we had an application listening to it!).
+
+Just for information sake (and all I'll really go into here), the default ports used for web traffic are port 80 (HTTP) and 443 (HTTPS).
+
