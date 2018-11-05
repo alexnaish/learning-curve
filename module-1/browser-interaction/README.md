@@ -61,3 +61,10 @@ const myHeadings = document.querySelectorAll('.my-heading-class')
 
 Now imagine if there wasn't such a thing as the DOM tree, in order to find an element you'd have to look at the HTML code and then try to detect where a class was referenced and then attempt to find the enclosing HTML tags... it'd be a nightmare to perform even the simplest operations. Any time you're interacting with the document, either via Javascript or CSS - you're working with the DOM.
 
+## Cookies
+
+You may have seen messages on websites prompting you to "accept all cookies". These cookies are in fact not the fun, tasty kind (I've already accepted far too many of those!) but are in fact tiny text files that are stored on your computer that can be read by specific websites when you visit them. Don't worry, all your cookies can't be read by any website you visit - cookies are "scoped" to specific domains.
+
+An interesting view into what a website is tracking can often be found by browsing what cookies you're storing. If you're using Google Chrome as your web browser (and only my opinion again but you should be) you can navigate to a website, right click anywhere on the page and click "inspect". This will then open the developer tools (congratulations - you're a software engineer!), select "Application" from the options along the top and then select "Cookies" from underneath the "Storage" section on the left hand side.
+
+Now depending on what site you're currently on, you'll see a list of domains associated with the page you're currently on. If you select one of the listed options, you'll then see all of the cookies stored on your computer for that website. Most of them might look like gibberish (especially if the website uses Google Analytics...) but there might be the odd interesting looking entry!
