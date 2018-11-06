@@ -31,17 +31,21 @@ name = "Alex";
 
 In Javascript, there are a few important variable types (known as `primitive` types). You've seen two, `String` (text) and `Number` but there are more.
 
+*	String
+	*	A text value - it MUST be quoted with either double quotes (`"`) or single (`'`).
 *	Boolean
 	*	Either `true` or `false`.
 	*	No quotes needed.
 	*	For example `const learningCurveIsAwesome = true`.
 *	Null
 	* Only one possible value: `null`.
+	*	No quotes needed.
 	*	Null essentially means you're stating that the variable is "nothing".
 	*	Its worth understanding how this differs from `undefined`. `null` to me means that the variable is defined but there is no result.
 	*	For instance: `const spellingMistakes = null` means that the `spellingMistakes` variable has been defined but has "no value" ie `null`.
 *	Undefined
 	*	Only one possible value: `undefined`.
+	*	No quotes needed.
 	*	This is another interesting quirk, `undefined` means that something has NOT been defined.
 	*	Ironically, you can declare a variable and assign it to `undefined`. This does sound counterintuitive and in reality it is - how can something be defined as undefined? Surely defining it means its not undefined?
 	*	<img src="mind-blown.gif" alt="mind-blown" />
@@ -71,6 +75,12 @@ However, `nextPerformanceReview` is undefined. From this we could assume that it
 As per the real world, you can't model everything you'd want to just using primitives. How would you model a register? How would you model a person? A table?
 
 Javascript has other types to handle these use cases. A list in the real world is called an `Array` in Javascript. The previous example of the different variable types used an `Object` to show how you could model a user record / a person. As Javascript is `loosely-typed` as mentioned previously, arrays can contain any kind of value even within the same array.
+
+*	Array
+	*	Can be declared using the square bracket notation (as below) or via `new Array(10)`. The second version will create an empty array with 10 empty items.
+* Object
+	*	Most commonly declared with curly braces (`{ }`).
+	*	Objects can have properties and are declared by the name, followed by a colon (`:`) and then the value (as below).
 
 As an example, we could model a staff register as follows:
 
