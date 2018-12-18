@@ -26,6 +26,10 @@ Document Object Model. Represents a document (such as a web page or XML file) as
 
 Domain Name Server. Holds the addresses of site domain names. An example would be asking for the location of www.google.co.uk and receiving some kind of IP address.
 
+### GUI
+
+Graphical User Interface. A program that allows point and click interactivity. When you're browsing the internet, you're using a GUI. When you're looking through folders on your computer, unless you're using your terminal - you're using a GUI.
+
 ### HTML
 
 Hypertext Markup Language. The most commonly used programming language for creating web pages and web applications.
